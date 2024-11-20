@@ -1,12 +1,21 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import employeesData from '../json/employees.json';
 import styles from './EmployeeList.module.css';
 
-const EmployeeList = () => {
-    const [searchQuery, setSearchQuery] = useState('');
+interface Employee {
+    id: number;
+    firstName: string;
+    lastName: string;
+    middleName: string;
+    department: string;
+    position: string;
+}
 
-    const filteredEmployees = employeesData.filter((employee) =>
+const EmployeeList: React.FC = () => {
+    const [searchQuery, setSearchQuery] = useState<string>('');
+
+    const filteredEmployees = employeesData.filter((employee: Employee) =>
         `${employee.lastName} ${employee.firstName} ${employee.middleName}`
             .toLowerCase()
             .includes(searchQuery.toLowerCase())
@@ -30,7 +39,7 @@ const EmployeeList = () => {
                 </tr>
                 </thead>
                 <tbody>
-                {filteredEmployees.map((employee) => (
+                {filteredEmployees.map((employee: Employee) => (
                     <tr key={employee.id}>
                         <td>
                             <Link to={`/employee/${employee.id}`} className={styles.link}>
@@ -48,3 +57,4 @@ const EmployeeList = () => {
 };
 
 export default EmployeeList;
+

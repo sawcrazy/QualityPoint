@@ -1,20 +1,202 @@
 [
   {
     "id": 1,
-    "lastName": "Иванов",
     "firstName": "Иван",
+    "lastName": "Иванов",
     "middleName": "Иванович",
-    "department": "IT",
+    "department": "Отдел разработки",
     "position": "Разработчик",
-    "photo": ""
+    "birthDate": "1985-06-15",
+    "photo": null
   },
   {
     "id": 2,
-    "lastName": "Петров",
     "firstName": "Петр",
+    "lastName": "Петров",
     "middleName": "Петрович",
-    "department": "HR",
+    "department": "Отдел тестирования",
+    "position": "Тестировщик",
+    "birthDate": "1990-11-22",
+    "photo": null
+  },
+  {
+    "id": 3,
+    "firstName": "Светлана",
+    "lastName": "Сидорова",
+    "middleName": "Алексеевна",
+    "department": "Отдел маркетинга",
     "position": "Менеджер",
-    "photo": ""
+    "birthDate": "1988-03-12",
+    "photo": null
+  },
+  {
+    "id": 4,
+    "firstName": "Андрей",
+    "lastName": "Кузнецов",
+    "middleName": "Дмитриевич",
+    "department": "Отдел продаж",
+    "position": "Менеджер по продажам",
+    "birthDate": "1987-07-24",
+    "photo": null
+  },
+  {
+    "id": 5,
+    "firstName": "Елена",
+    "lastName": "Васильева",
+    "middleName": "Викторовна",
+    "department": "HR-отдел",
+    "position": "Рекрутер",
+    "birthDate": "1992-10-18",
+    "photo": null
+  },
+  {
+    "id": 6,
+    "firstName": "Дмитрий",
+    "lastName": "Соколов",
+    "middleName": "Игоревич",
+    "department": "Отдел аналитики",
+    "position": "Аналитик",
+    "birthDate": "1986-01-14",
+    "photo": null
+  },
+  {
+    "id": 7,
+    "firstName": "Мария",
+    "lastName": "Морозова",
+    "middleName": "Андреевна",
+    "department": "Отдел рекламы",
+    "position": "Копирайтер",
+    "birthDate": "1994-09-05",
+    "photo": null
+  },
+  {
+    "id": 8,
+    "firstName": "Виктор",
+    "lastName": "Павлов",
+    "middleName": "Сергеевич",
+    "department": "Бухгалтерия",
+    "position": "Бухгалтер",
+    "birthDate": "1983-05-28",
+    "photo": null
+  },
+  {
+    "id": 9,
+    "firstName": "Анна",
+    "lastName": "Новикова",
+    "middleName": "Владимировна",
+    "department": "Юридический отдел",
+    "position": "Юрист",
+    "birthDate": "1989-08-02",
+    "photo": null
+  },
+  {
+    "id": 10,
+    "firstName": "Максим",
+    "lastName": "Михайлов",
+    "middleName": "Романович",
+    "department": "IT-отдел",
+    "position": "Системный администратор",
+    "birthDate": "1982-12-10",
+    "photo": null
+  },
+  {
+    "id": 11,
+    "firstName": "Ольга",
+    "lastName": "Федорова",
+    "middleName": "Евгеньевна",
+    "department": "Отдел закупок",
+    "position": "Специалист по закупкам",
+    "birthDate": "1991-04-23",
+    "photo": null
+  },
+  {
+    "id": 12,
+    "firstName": "Александр",
+    "lastName": "Кравцов",
+    "middleName": "Станиславович",
+    "department": "Отдел логистики",
+    "position": "Логист",
+    "birthDate": "1984-06-11",
+    "photo": null
+  },
+  {
+    "id": 13,
+    "firstName": "Наталья",
+    "lastName": "Кузьмина",
+    "middleName": "Ивановна",
+    "department": "PR-отдел",
+    "position": "Специалист по связям с общественностью",
+    "birthDate": "1987-02-14",
+    "photo": null
+  },
+  {
+    "id": 14,
+    "firstName": "Артем",
+    "lastName": "Лебедев",
+    "middleName": "Михайлович",
+    "department": "Отдел проектирования",
+    "position": "Инженер",
+    "birthDate": "1981-03-19",
+    "photo": null
+  },
+  {
+    "id": 15,
+    "firstName": "Ксения",
+    "lastName": "Семенова",
+    "middleName": "Александровна",
+    "department": "Дизайн-отдел",
+    "position": "Дизайнер",
+    "birthDate": "1993-07-01",
+    "photo": null
+  },
+  {
+    "id": 16,
+    "firstName": "Юрий",
+    "lastName": "Титов",
+    "middleName": "Борисович",
+    "department": "Отдел контроля качества",
+    "position": "Инспектор",
+    "birthDate": "1989-11-17",
+    "photo": null
+  },
+  {
+    "id": 17,
+    "firstName": "Екатерина",
+    "lastName": "Григорьева",
+    "middleName": "Аркадьевна",
+    "department": "Отдел документооборота",
+    "position": "Документовед",
+    "birthDate": "1995-08-08",
+    "photo": null
+  },
+  {
+    "id": 18,
+    "firstName": "Валентин",
+    "lastName": "Орлов",
+    "middleName": "Геннадьевич",
+    "department": "Служба безопасности",
+    "position": "Охранник",
+    "birthDate": "1980-10-03",
+    "photo": null
+  },
+  {
+    "id": 19,
+    "firstName": "Галина",
+    "lastName": "Захарова",
+    "middleName": "Петровна",
+    "department": "Отдел обучения",
+    "position": "Тренер",
+    "birthDate": "1991-05-15",
+    "photo": null
+  },
+  {
+    "id": 20,
+    "firstName": "Сергей",
+    "lastName": "Филатов",
+    "middleName": "Ильич",
+    "department": "Отдел инноваций",
+    "position": "Исследователь",
+    "birthDate": "1985-12-27",
+    "photo": null
   }
 ]

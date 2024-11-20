@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import EmployeeList from './components/EmployeeList';
 import EmployeeCard from './components/EmployeeCard';
 
-const App = () => {
+const App: React.FC = () => {
     return (
         <Router>
             <Routes>
@@ -14,6 +14,4 @@ const App = () => {
 };
 
 export default App;
-
-
 
