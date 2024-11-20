@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "lastName": "Иванов",
+    "firstName": "Иван",
+    "middleName": "Иванович",
+    "department": "IT",
+    "position": "Разработчик",
+    "photo": ""
+  },
+  {
+    "id": 2,
+    "lastName": "Петров",
+    "firstName": "Петр",
+    "middleName": "Петрович",
+    "department": "HR",
+    "position": "Менеджер",
+    "photo": ""
+  }
+]
