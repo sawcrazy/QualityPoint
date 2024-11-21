@@ -2,17 +2,10 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import employeesData from '../json/employees.json';
 import styles from './EmployeeList.module.css';
+import { Employee } from "../types/employeeTypes";
 
-interface Employee {
-    id: number;
-    firstName: string;
-    lastName: string;
-    middleName: string;
-    department: string;
-    position: string;
-}
 
-const EmployeeList: React.FC = () => {
+export const EmployeeList: React.FC = () => {
     const [searchQuery, setSearchQuery] = useState<string>('');
 
     const filteredEmployees = employeesData.filter((employee: Employee) =>
@@ -56,5 +49,5 @@ const EmployeeList: React.FC = () => {
     );
 };
 
-export default EmployeeList;
+
 
